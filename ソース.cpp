@@ -9,7 +9,7 @@
 
 
 template<class T>
-class VecterStack {
+class VectorStack {
 public:
 
 	const T& Peek() const {
@@ -48,7 +48,7 @@ struct Thought {//not define yet. 適当定義・・・。Orz
 
 int main() {
 
-	VecterStack<Thought> M;
+	VectorStack<Thought> M;
 	Thought T{ 0, };
 
 	M.Push(T);
